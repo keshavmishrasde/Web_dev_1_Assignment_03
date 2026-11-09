@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>My portfolio</h1>
+      <div id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skill">Skills</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <main>
+      <section id="about">
+        <img src="./keshav.png" alt="Keshav Mishra" />
+        <div class="about-text">
+          <h2>About me</h2>
+          <p>
+            Hello, my name is Keshav Mishra and I am learning web development.
+          </p>
+          <p>
+            I am a student at [Your College Name], studying [Your Course]. I
+            enjoy turning ideas into simple, clean web pages and I am getting
+            better at it with every project.
+          </p>
+          <ul class="facts">
+            <li>Student</li>
+            <li>Web development learner</li>
+            <li>Open to internships</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skill">
+        <h2>Skills</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Skill</th>
+              <th>Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>Moderate</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Moderate</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>Beginner</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="learning">
+          <h3>Currently learning</h3>
+          <ul>
+            <li>Responsive design with Flexbox and Grid</li>
+            <li>JavaScript basics and DOM manipulation</li>
+            <li>Using Git and GitHub</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="project" id="project">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <div class="card" id="project1">
+            <h3>Project 1</h3>
+            <p>A simple HTML and CSS page</p>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <a class="card-link" href="#">View project</a>
+          </div>
+          <div class="card" id="project2">
+            <h3>Project 2</h3>
+            <p>Another mini project</p>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <a class="card-link" href="#">View project</a>
+          </div>
+          <div class="card" id="project3">
+            <h3>Personal Portfolio</h3>
+            <p>
+              This website. A responsive one-page portfolio built with Flexbox,
+              Grid, media queries and CSS animations.
+            </p>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Responsive</li>
+            </ul>
+            <a class="card-link" href="#about">Back to top</a>
+          </div>
+          <div class="card" id="project4">
+            <h3>Project 4 (coming soon)</h3>
+            <p>A JavaScript project, such as a to-do list or a calculator.</p>
+            <ul class="tags">
+              <li>JavaScript</li>
+            </ul>
+            <a class="card-link" href="#">View project</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p class="contact-intro">
+          Have a question or want to work together? Send me a message or reach
+          me here:
+        </p>
+        <ul class="contact-details">
+          <li>Email: [your-email@example.com]</li>
+          <li>GitHub: [github.com/your-username]</li>
+        </ul>
+        <form>
+          <label for="name">
+            Name:
+            <input type="text" name="name" id="name" />
+          </label>
+          <label for="email">
+            Email:
+            <input type="email" name="email" id="email" />
+          </label>
+          <label for="message">
+            Message:
+            <textarea name="message" id="message"></textarea>
+          </label>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Keshav Mishra</p>
+    </footer>
+  </body>
+</html>
